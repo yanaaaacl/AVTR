@@ -13,7 +13,7 @@ url("../fonts/Corporate-A-Bold.woff") format("woff");
 
 }
 body{
-    
+    background-color: #070a1b;
     font-size: 16px;
     line-height: 120%;
     font-weight: 400;
@@ -39,14 +39,14 @@ ul{
     margin: 0 auto;
     padding: 0 10px;
 }
-.header{
-    background-color: #070a1b;
-}
 .header__top{
 display: flex;
 justify-content: space-between;
 align-items: center;
 height: 100px;
+}
+.header__logo{
+    margin-left: 115px;
 }
 .list{
     display: flex;
@@ -110,7 +110,7 @@ margin-bottom: -25px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .footer{
-    background-color:#070a1b;
+    
     
 }
 .footer__inner{
@@ -120,7 +120,7 @@ align-items: center;
 height: 300px;
 }
 .concept{
-    background-color: #070a1b;
+    
     padding-top: 150px;
     margin-bottom: 150px;
 }
@@ -140,4 +140,34 @@ height: 300px;
     font-size: 24px;
     margin-bottom: 25px;
     line-height: 120%;
+}
+.premier{
+    margin-bottom: 150px;
+}
+.premier__inner{
+    display: flex;
+    gap: 60px;
+}
+.premier__text{
+    margin-bottom: 21px;
+}
+.premier__img{
+    margin-bottom: 20px;
+}
+.premier__btn{
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    line-height: 120%;
+    color:#f402a2;
+    font-family: "Corporate-A-Bold";
+    text-transform: uppercase;
+    text-align: center;
+    padding: 14px;
+    border: 1px solid #f402a2;
+    transition: all .3s;
+}
+.premier__btn:hover{
+color: #53a1cb;
+border: 1px solid #53a1cb;
 }
